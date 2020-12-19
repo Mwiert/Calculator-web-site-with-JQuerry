@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>JQUERY WEB CALCULATOR</title>
+    <link rel="stylesheet" type="text/css" href="stil.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <div class="menu_bar">
+        <div class=" logo">
+            <img src="calculator.png" />
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/mert-sahin-a47b321a3/" target="_blank" style="font-size:16px">LINKEDIN</a></li>
+                <li><a href="https://github.com/Mwiert" target="_blank" style="font-size:16px">GITHUB</a></li>
+                <li><a href="https://twitter.com/mwiert" target="_blank" style="font-size:16px">TWITTER</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="CalcBody">
+        <div>
+            <input type="text" id="goruntuEkran" disabled />
+        </div>
+        <div class="buton">
+            <div class="Tuslar">
+                <button onclick="clearScreen()">C</button>
+                <button onclick="deleteChar()">Del</button>
+            </div>
+            <div class="Tuslar">
+                <button onclick="clck(7)">7</button>
+                <button onclick="clck(8)">8</button>
+                <button onclick="clck(9)">9</button>
+                <button onclick="clck('/')" style="background-color: #FF908A">/</button>
+            </div>
+            <div class="Tuslar">
+                <button onclick="clck(4)">4</button>
+                <button onclick="clck(5)">5</button>
+                <button onclick="clck(6)">6</button>
+                <button onclick="clck('*')" style="background-color: #FF6161">X</button>
+            </div>
+            <div class="Tuslar">
+                <button onclick="clck(1)">1</button>
+                <button onclick="clck(2)">2</button>
+                <button onclick="clck(3)">3</button>
+                <button onclick="clck('-')" style="background-color: #C2F0A4">-</button>
+            </div>
+            <div class="Tuslar">
+                <button onclick="clck('.')">.</button>
+                <button onclick="clck(0)">0</button>
+                <button onclick="clck('+')" style="background-color: #FF0000">+</button>
+                <button onclick="hesapla('=')" style="background-color: #552020">=</button>
+            </div>
+        </div>
+    </div>
+    <div class="alt_bar">
+              <h3>Made by JQuerry</h3>
+        <img src="bakircayedu.jpg"/>
+    </div>
+</body>
+</html>

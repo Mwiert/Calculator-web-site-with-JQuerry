@@ -1,0 +1,103 @@
+﻿body {
+    background: url("background1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.menu_bar {
+    height: 150px;
+    width: 100%;
+    background-color: #92C4F7;
+    display: flex;
+    justify-content: space-around;
+}
+.logo img {
+    height: 150px;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+}
+.menu a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 10px;
+}
+.menu li:hover a {
+    color: white;
+    background-color: brown;
+    transition: 0.5s;
+}
+.alt_bar {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    background-color: #92C4F7;
+    display: flex;
+    justify-content: space-around;
+}
+#CalcBody {
+    margin-top: 5%;
+    margin-left: 35%;
+    right: 30%;
+    left: 30%;
+    width: 400px;
+    background: linear-gradient(#ABD3D3,#324F4F);
+    border: solid 9px;
+    border-color: #8A140F;
+    border-radius: 10px;
+    display: grid;
+}
+#goruntuEkran {
+    width: 80%;
+    height: 40px;
+    margin-top: 3%;
+    margin-left: 6%;
+    border: solid 4px;
+    border-width: 5px;
+    border-color: #8A140F;
+    border-radius: 5px;
+    font-size: xx-large;
+    font-family: Cambria;
+    font-weight: bold;
+}
+.buton {
+    margin-top: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    height: 85%;
+    margin-bottom: 10px;
+}
+.buton button {
+        width: 60px;
+        height: 45px;
+        margin-top: 10px;
+        background: linear-gradient();
+        margin-left: 10px;
+        border: solid black;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 100 bold;
+        font-family: Cambria;
+}
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #608C8C;
+    transition: 0.5s;
+}
+@media only screen and (max-width:770px) {
+    #CalcBody {
+        width: 400px;
+        margin: 30px;
+    }
+}
